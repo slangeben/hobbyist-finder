@@ -1,0 +1,122 @@
+body {
+    background-color: #ffcc00;
+}
+
+.partner-container {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.partner-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.partner-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.partner-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.partner-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.partner-bio, .partner-availability {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.partner-description {
+    font-size: 13px;
+    font-style: italic;
+    color: #555;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Chat Modal */
+.chat-modal {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 320px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+}
+
+.chat-header {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-body {
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    font-size: 14px;
+    text-align: left;
+}
+
+.chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.btn-go-back {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-go-back:hover {
+    background-color: #0056b3;
+}
